@@ -1,0 +1,14 @@
+server:
+  port: 10000
+  context-path:
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+
+  instance:
+    hostname: localhost
+management:
+  security:
+    enabled: false
+  context-path: /system
